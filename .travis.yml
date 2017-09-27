@@ -6,7 +6,9 @@ rvm:
 services:
   - postgresql
   
-before_install: gem install bundler
+before_install:
+  - gem install bundler
+  - gem install rails -v 5.1.4
 
 before_script:
   - export PARALLEL_TEST_PROCESSORS=4
