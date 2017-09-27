@@ -22,13 +22,29 @@ group :development, :test do
   gem 'rspec-rails'
 end
 ```
-#### Install gem locally
+#### Install Rspec Rails gem
 ```bash
-bundle install --path vendor/bundle
+bundle
 ```
 #### Bootstrap the application with RSpec
 ```bash
 bundle exec rails generate rspec:install
+```
+### Add Shoulda Matchers gem to Gemfile
+```bash
+group :test do
+  gem 'shoulda-matchers'
+end
+```
+#### Configure Shoulda Matchers gem
+Add the following block to the end of `spec/rails_helper.rb`
+```bash
+Shoulda::Matchers.configure do |config|
+  config.integrate do |with|
+    with.test_framework :rspec
+    with.library :rails
+  end
+end
 ```
 
 * Ruby version
