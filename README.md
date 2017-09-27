@@ -1,4 +1,6 @@
 # README
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/fybwid/rails-bdd.svg)](https://greenkeeper.io/)
 [![Build Status](https://semaphoreci.com/api/v1/fybwid/rails-bdd/branches/master/shields_badge.svg)](https://semaphoreci.com/fybwid/rails-bdd)
 [![Build Status](https://travis-ci.org/fybwid/rails-bdd.svg?branch=master)](https://travis-ci.org/fybwid/rails-bdd)
 [ ![Codeship Status for fybwid/rails-bdd](https://app.codeship.com/projects/eeb4b470-8579-0135-763e-229a8d5fb755/status?branch=master)](https://app.codeship.com/projects/247933)
