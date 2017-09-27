@@ -2,6 +2,7 @@ language: ruby
 rvm:
   - 2.4.2
 before_script:
+  - bundler_args: --binstubs
   - bundle exec rake db:create --all
   - bundle exec rake db:migrate
 script:
