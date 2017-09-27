@@ -63,6 +63,18 @@ bundle
 rails generate cucumber:install
 ```
 
+## Testing
+### RSpec
+#### Single test
+`rspec spec/models/post_spec.rb`
+#### All test
+`rspec`
+
+### RSpec
+#### Single test
+`cucumber features/home_page.feature`
+#### All test
+`cucumber`
 * Ruby version
 
 * System dependencies
