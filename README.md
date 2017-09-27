@@ -76,11 +76,12 @@ rails generate cucumber:install
 #### All test
 `rspec`
 
-### RSpec
+### Cucumber
 #### Single test
 `cucumber features/home_page.feature`
 #### All test
 `cucumber`
+
 * Ruby version
 
 * System dependencies
