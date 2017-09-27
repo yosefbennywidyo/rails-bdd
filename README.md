@@ -30,6 +30,7 @@ bundle install --path vendor/bundle
 ```bash
 bundle exec rails generate rspec:install
 ```
+
 * Ruby version
 
 * System dependencies
