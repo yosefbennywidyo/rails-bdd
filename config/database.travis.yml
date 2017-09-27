@@ -2,7 +2,7 @@ postgresql: &postgresql
   adapter: postgresql
   username: postgres
   password:
-  database: sidodi-tdd_test
+  database: rails_bdd_test
   min_messages: ERROR
 
 defaults: &defaults
