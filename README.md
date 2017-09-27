@@ -46,6 +46,22 @@ Shoulda::Matchers.configure do |config|
   end
 end
 ```
+### Added Cucumber gem
+```bash
+group :test do
+  gem 'shoulda-matchers'
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
+end
+```
+#### Install Cucumber gem
+```bash
+bundle
+```
+### Bootstrap the application with Cucumber
+```bash
+rails generate cucumber:install
+```
 
 * Ruby version
 
