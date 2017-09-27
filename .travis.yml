@@ -9,12 +9,17 @@ services:
 before_install:
   - gem install bundler
   - gem install rails -v 5.1.4
+  
+cache:
+  bundler: true
+  directories:
+    - vendor/bundle
+
+install:
+  - bundle install --deployment
 
 before_script:
   - export PARALLEL_TEST_PROCESSORS=4
-  - bundle install
   - rails db:setup
-
-script:
   - rspec
   - cucumber
