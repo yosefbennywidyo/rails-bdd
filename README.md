@@ -68,6 +68,8 @@ rails generate cucumber:install
 ```
 
 ## Testing
+### Running all test (RSpec and Cucumber)
+`bundle exec rake ci:tests`
 ### RSpec
 #### Single test
 `rspec spec/models/post_spec.rb`
