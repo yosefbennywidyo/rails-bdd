@@ -1,5 +1,5 @@
 # README
-
+[![Build Status](https://semaphoreci.com/api/v1/fybwid/rails-bdd/branches/master/shields_badge.svg)](https://semaphoreci.com/fybwid/rails-bdd)
 ## Prerequisites
 * Ruby: 2.4.0p0
 * Rails: 5.1.4
